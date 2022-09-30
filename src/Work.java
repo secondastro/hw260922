@@ -10,7 +10,6 @@ public class Work {
         oprichniksDay.setYear(2007);
         System.out.println(oprichniksDay.getYear());
     }
-
     public static void printerBook(Book book) {
         System.out.print(book.getName() + ": ");
         System.out.print(book.getAuthor().getFirstName() + " " + book.getAuthor().getLastName() + ": ");
